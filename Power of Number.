@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    int x, y;
+   double result;
+    scanf("%d %d", &x, &y);
+    //x is the number to which the power is raised 
+    //y is the number which  is power
+    result = pow(x, y);
+    printf("%.0f\n", result);
+    return 0;
+}
