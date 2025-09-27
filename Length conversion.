@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+    float centimeters;
+    float meters;
+    float kilometers;
+    scanf("%f", &centimeters);
+    meters = centimeters / 100.0;
+    kilometers = centimeters / 100000.0;
+    printf("%.2f %.2f\n", meters, kilometers);
+
+    return 0;
+}
