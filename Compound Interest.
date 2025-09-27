@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <math.h> // Required for the pow() function
+
+int main() {
+    int P;
+    float R;
+    int T; 
+    scanf("%d", &P);
+    scanf("%f", &R);
+    scanf("%d", &T);
+    float decimal_R = R / 100.0;
+    double Amount = P * pow((1 + decimal_R), T);
+    double CI = Amount - P;
+    printf("%.2f\n", CI);
+    
+    return 0;
+}
