@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+    int A, B, C;
+    scanf("%d %d %d", &A, &B, &C);
+   int largest = A;
+    if (B > largest)
+        largest = B;
+    if (C > largest)
+        largest = C;
+    printf("%d\n", largest);
+    return 0;
+}
