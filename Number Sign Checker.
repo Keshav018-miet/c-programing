@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+#include<ctype.h>
+int main() {
+    int N;
+    scanf("%d", &N);
+    char ch;
+    scanf("%c", &ch);
+    if (isdigit(ch));
+   
+    if (N != 0) {
+       if (N < 0 ) printf("Negative\n");
+       if (N > 0 ) printf("Positive\n");
+    }
+    else  {
+        printf("Zero\n");
+    }
+    return 0;
+}
