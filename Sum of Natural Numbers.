@@ -1,0 +1,15 @@
+// print sum of n numbers
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+ int i, n, sum;;
+    scanf("%d",&n);
+  for (i = 1 ; i <= n; i++) {
+  sum += i;
+        
+  }     
+        printf("%d\n", sum);
+        
+    return 0;
+}
